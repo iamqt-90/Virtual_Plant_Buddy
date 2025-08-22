@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# macOS and Linux
+.DS_Store
+*.swp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.bak
+
+# Python-specific
+*.log
+*.sqlite3
+*.db
+*.pyo
+*.pyd
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Pygame temp files (if any)
+*.tmp
+
+# Save game data (optional if you don't want it tracked)
+data/savegame.json
+
+# pipenv / poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Build / dist files
+build/
+dist/
+*.egg-info/
